@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games — Fastone.com</title>
+  <meta name="description" content="Browse 55+ premium casino games — slots, fishing, table, bingo and casino from Fastone.com." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header>
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">FAST<span>ONE</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html"   class="nav__link">Home</a></li>
+        <li><a href="company.html" class="nav__link">Company</a></li>
+        <li><a href="games.html"   class="nav__link active">Games</a></li>
+        <li><a href="contact.html" class="nav__link">Contact Us</a></li>
+      </ul>
+      <div class="nav__right">
+        <div class="lang-switcher">
+          <button class="lang-btn on">EN</button>
+          <button class="lang-btn">CN</button>
+          <button class="lang-btn">TH</button>
+          <button class="lang-btn">JP</button>
+        </div>
+        <a href="contact.html" class="btn btn--red nav__cta">Get Started</a>
+      </div>
+      <button class="nav__burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile">
+      <a href="index.html">Home</a>
+      <a href="company.html">Company</a>
+      <a href="games.html">Games</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="contact.html" style="color:#DC0000">Get Started →</a>
+    </nav>
+  </nav>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container page-hero__inner">
+    <div class="tag rv">Game Library</div>
+    <h1 class="page-hero__title rv delay-1">55+ Premium<br><span style="color:var(--r)">Casino Titles</span></h1>
+    <p class="page-hero__sub rv delay-2">Slots, fishing, table games, bingo and instant wins — all optimised for mobile and desktop, ready to integrate via single API.</p>
+  </div>
+</section>
+
+<!-- TABS + GRID -->
+<section class="section">
+  <div class="container">
+    <!-- Stats Strip -->
+    <div style="display:flex;gap:32px;flex-wrap:wrap;margin-bottom:48px;" class="rv">
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <span style="font-size:1.5rem;font-weight:900;letter-spacing:-.03em;">55+</span>
+        <span style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g);">Total Games</span>
+      </div>
+      <div style="width:1px;background:var(--bd);"></div>
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <span style="font-size:1.5rem;font-weight:900;letter-spacing:-.03em;">5</span>
+        <span style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g);">Categories</span>
+      </div>
+      <div style="width:1px;background:var(--bd);"></div>
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <span style="font-size:1.5rem;font-weight:900;letter-spacing:-.03em;">97%+</span>
+        <span style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g);">Avg RTP</span>
+      </div>
+      <div style="width:1px;background:var(--bd);"></div>
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <span style="font-size:1.5rem;font-weight:900;letter-spacing:-.03em;">Mobile</span>
+        <span style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g);">First Design</span>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="games-search rv delay-1">
+      <div class="games-search__wrap">
+        <svg class="games-search__icon" viewBox="0 0 24 24" fill="none" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="games-search" class="games-search__input" placeholder="Search 55+ games..." autocomplete="off" />
+      </div>
+    </div>
+
+    <!-- Tab Buttons -->
+    <div class="tabs rv delay-2" role="tablist">
+      <button class="tab-btn active" data-tab="all"     role="tab" aria-selected="true">All</button>
+      <button class="tab-btn"        data-tab="slot"    role="tab">Slots</button>
+      <button class="tab-btn"        data-tab="fishing" role="tab">Fishing</button>
+      <button class="tab-btn"        data-tab="table"   role="tab">Table</button>
+      <button class="tab-btn"        data-tab="bingo"   role="tab">Bingo</button>
+      <button class="tab-btn"        data-tab="casino"  role="tab">Casino</button>
+    </div>
+
+    <!-- Game Grid -->
+    <div class="games-grid" id="games-grid" role="list">
+      <!-- Populated by app.js initTabs() -->
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section--sm">
+  <div class="container">
+    <div class="cta-banner rv">
+      <div class="cta-banner__title">Want API Access?</div>
+      <p class="cta-banner__sub">Get certified credentials and a sandbox environment in under 24 hours.</p>
+      <div class="cta-banner__btns">
+        <a href="contact.html" class="btn btn--red">Request Access →</a>
+        <a href="company.html" class="btn btn--outline">Learn About Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__logo">FAST<span>ONE</span></div>
+        <p class="footer__brand-desc">The fastest games in the industry. Premium B2B casino content powering operators across 35+ markets worldwide.</p>
+        <div class="lang-switcher">
+          <button class="lang-btn on">EN</button>
+          <button class="lang-btn">CN</button>
+          <button class="lang-btn">TH</button>
+          <button class="lang-btn">JP</button>
+        </div>
+      </div>
+      <div>
+        <div class="footer__col-title">Navigation</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Categories</div>
+        <ul class="footer__links">
+          <li><a href="games.html">Slots</a></li>
+          <li><a href="games.html">Fishing</a></li>
+          <li><a href="games.html">Table Games</a></li>
+          <li><a href="games.html">Bingo</a></li>
+          <li><a href="games.html">Casino</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Company</div>
+        <ul class="footer__links">
+          <li><a href="company.html">About Us</a></li>
+          <li><a href="company.html">Platform</a></li>
+          <li><a href="contact.html">Partnerships</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2024 Fastone.com. All rights reserved. For business inquiries only.</p>
+      <div class="footer__badges">
+        <span class="badge">Certified RNG</span>
+        <span class="badge">Responsible Gaming</span>
+        <span class="badge">18+</span>
+        <span class="badge">GDPR Compliant</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
